@@ -102,7 +102,7 @@ changeAllSedNamesWithRecursion() {
 
 executionOption() {
   if [[ ${#args[*]} == 0 ]]; then
-    #option and no argumetns
+    #option and no arguments
     changeAllNames $PWD; 
   else
     if test "${args[0]+isset}" ; then
@@ -209,7 +209,7 @@ elif [ ${param[0]} != false ] && [ ${param[1]} != false ]; then
   #two parameters
   executionOptionWithRecursion;
 else
-  #one paramiter
+  #one parameter
   if [ ${param[0]} == r ]; then
     #recursion
     executionSedWithRecursion;
