@@ -4,7 +4,7 @@ Explanation of the task:
 -----------------------
 Write a script modify with the following syntax:
   * modify [-r] [-l|-u] <dir/file names...>
-  * modify [-r] '<sed pattern>' <dir/file names...>
+  * modify [-r] <<sed pattern>> <dir/file names...>
   * modify [-h]
 
 which will modify file names. 
